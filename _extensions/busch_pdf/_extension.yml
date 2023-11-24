@@ -1,14 +1,14 @@
-title: PrettyPDF
-author: Nicola Rennie
+title: busch_pdf
+author: Richard White
 version: 0.0.1
 contributes:
   formats: 
     pdf:
       include-in-header: 
-       - "PrettyPDF.tex"
+       - "busch_pdf.tex"
       include-before-body:
        - "pagestyle.tex"
       toc: false
-      code-block-bg: light
+      code-block-bg: code
       linkcolor: highlight
       urlcolor: highlight
